@@ -85,7 +85,7 @@ const IndexPage = () => (
         練習用リポジトリです
       </h1>
       <p>練習用リポジトリです１１１</p>
-      <p>練習用リポジトリです2</p>
+      <p>練習用リポジトリです4</p>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
