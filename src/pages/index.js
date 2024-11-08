@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        練習用リポジトリです
+        練習用リポジトリですよ
       </h1>
       <p>練習用リポジトリです１１１</p>
       <p>練習用リポジトリです6</p>
