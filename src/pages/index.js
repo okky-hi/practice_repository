@@ -83,6 +83,7 @@ const IndexPage = () => (
       />
       <h1>
         Hi,I'm okky
+        <p>練習2</p>
       </h1>
       <p>練習1</p>
       <p>練習1.5</p>
