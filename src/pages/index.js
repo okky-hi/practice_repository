@@ -88,6 +88,7 @@ const IndexPage = () => (
       <p>33歳です</p>
       <p>東京在住です。</p>
       <p>webデザイナーです。</p>
+      <p>webデザイナーですwebデザイナーですwebデザイナーですwebデザイナーですwebデザイナーですwebデザイナーです</p>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
