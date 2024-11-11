@@ -8,7 +8,7 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
+    text: "test",
     url: "https://www.gatsbyjs.com/docs/tutorial",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
@@ -82,10 +82,11 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Hi,I'm okky
+        練習用リポジトリですよ
       </h1>
       <p>私は日置です。</p>
       <p>33歳です</p>
+      <p>東京在住です。</p>
       <p>デザイナーです。</p>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
@@ -99,6 +100,7 @@ const IndexPage = () => (
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
     </div>
+    <p>練習用リポジトリです3</p>
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
