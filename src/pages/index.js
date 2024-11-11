@@ -84,6 +84,7 @@ const IndexPage = () => (
       <h1>
         Hi,I'm okky
       </h1>
+      <p>私は日置です。</p>
       <p>練習1</p>
       <p>練習1.5</p>
       <p className={styles.intro}>
