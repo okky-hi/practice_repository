@@ -85,6 +85,7 @@ const IndexPage = () => (
         Hi,I'm okky
         <p>練習2</p>
       </h1>
+      <p>東京在住です。</p>
       <p>練習1</p>
       <p>練習1.5</p>
       <p className={styles.intro}>
