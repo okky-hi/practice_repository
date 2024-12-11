@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        rebaseとは
+        rebase用ブランチです
       </h1>
       <p>練習用リポジトリです１１１</p>
       <p>練習用リポジトリです8</p>
