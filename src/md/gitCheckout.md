@@ -12,15 +12,10 @@
   - バグ発生時やコードレビューなどの際、過去のコミット内容を確認する
 - ファイルを過去のバージョンに戻す
 
-## 注意点
-- 作業内容を一時的に保存しておく
-  - git stashで作業内容を一時的に退避させる
-- 誤操作
 
+## 実践
 
-## ファイルを過去のバージョンに戻す（実践）
-
-### featureブランチのREADME.mdを、developのEADME.mdの状態に戻す
+### featureブランチのREADME.mdに、developのEADME.mdの内容を反映させる
 
 別のブランチから持ってくる
 ```
@@ -42,5 +37,11 @@ git log -- README.md
 git checkout <コミットID> -- <ファイル>
 
 例）
-git checkout <コミットID> -- README.md
+git checkout 8abc2e2 -- README.md
 ```
+
+## 注意点
+- 作業中のデータがある場合は、あらかじめ内容を保存しておく
+  - git stash
+- 誤操作
+  - 対象のディレクトリ、ファイル、コミットなどを正確に指定する
