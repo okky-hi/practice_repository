@@ -37,7 +37,7 @@ git log -- README.md
 git checkout <コミットID> -- <ファイル>
 
 例）
-git checkout 8abc2e2 -- README.md
+git checkout 8abc2e27373832f6c2c876258d415722a625a598 -- README.md
 ```
 
 ## 注意点
